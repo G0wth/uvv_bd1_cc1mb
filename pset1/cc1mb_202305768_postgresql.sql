@@ -338,12 +338,12 @@ CHECK 		(status IN ('CANCELADO', 'COMPLETO', 'ABERTO', 'PAGO', 'REEMBOLSADO', 'E
 CREATE TABLE pedidos_itens (
                 pedido_id 		    NUMERIC(38) 	NOT NULL,
                 produto_id 		    NUMERIC(38) 	NOT NULL,
-                numero_da_linha 	NUMERIC(38) 	NOT NULL,
-                preco_unitario		NUMERIC(10,2) 	NOT NULL,
+                numero_da_linha 	    NUMERIC(38) 	NOT NULL,
+                preco_unitario		    NUMERIC(10,2) 	NOT NULL,
                 quantidade		    NUMERIC(38) 	NOT NULL,
                 envio_id		    NUMERIC(38) 	NOT NULL,
 
-                CONSTRAINT pk_pedidos_itens         PRIMARY KEY (pedido_id, produto_id)
+                CONSTRAINT pk_pedidos_itens         		PRIMARY KEY (pedido_id, produto_id)
 );
 
 
