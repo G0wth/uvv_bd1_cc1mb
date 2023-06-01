@@ -1,5 +1,8 @@
--- TURMA: CC1MB
+-- - Banco de Dados, PSET 1
 -- ALUNO: Vitor Hugo Burns Lessa
+-- MATRÍCULA: 202306105
+-- TURMA: CC1MB
+-- E-MAIL: vitorh.burns.l@gmail.com
 
 
 -- Apagar o banco de dados e o usuário caso existam:
